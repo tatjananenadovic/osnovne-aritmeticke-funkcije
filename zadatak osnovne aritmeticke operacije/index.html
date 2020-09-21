@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>osnovne aritmeticke funkcije</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+
+	 <script>
+      var prviBroj = prompt("Unesi prvi broj ");
+      var operacija = prompt("Unesi bilo koju operaciju: ")
+      var drugiBroj = prompt("Unesi drugi broj ");
+      
+      if (operacija === "+"){
+        var rezultat = parseInt(prviBroj) + parseInt(drugiBroj);
+      }else if(operacija == "-"){
+        var rezultat =  parseInt(prviBroj) - parseInt(drugiBroj);
+      }else if(operacija == "*"){
+        var rezultat =  parseInt(prviBroj) * parseInt(drugiBroj);
+      }else if(operacija == "/"){
+        var rezultat =  parseInt(prviBroj) / parseInt(drugiBroj);
+      }else {
+        alert("Error");
+      }
+      alert(rezultat);
+    </script>
+
+</body>
+</html>
